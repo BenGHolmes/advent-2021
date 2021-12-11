@@ -15,7 +15,7 @@ fn parse1(input: &str) -> i32 {
     let mut max = i32::MIN;
 
     let pos: Vec<i32> = input
-        .split(",")
+        .split(',')
         .map(|x| {
             let val = x.parse().unwrap();
             min = min.min(val);
@@ -38,7 +38,7 @@ fn parse2(input: &str) -> i32 {
     let mut max = i32::MIN;
 
     let pos: Vec<i32> = input
-        .split(",")
+        .split(',')
         .map(|x| {
             let val = x.parse().unwrap();
             min = min.min(val);
