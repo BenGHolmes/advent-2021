@@ -1,5 +1,4 @@
-use std::collections::{HashMap, HashSet};
-use std::iter::FromIterator;
+use std::collections::HashMap;
 use std::str::FromStr;
 
 const INPUT: &'static str = include_str!("../inputs/day8.txt");

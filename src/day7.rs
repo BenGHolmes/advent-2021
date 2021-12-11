@@ -1,5 +1,3 @@
-use std::str::FromStr;
-
 const INPUT: &'static str = include_str!("../inputs/day7.txt");
 
 pub(crate) fn run() {
